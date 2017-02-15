@@ -1,0 +1,46 @@
+ body {
+ 		width: 960px;
+ 		margin: 0 auto;
+ 		background: url('../images/seigaiha.png');}
+ header{
+ 	width: 960px;
+ 	background: #ffffff;
+ 	padding: 25px 0px 25px 0px;
+ 	margin: 10px 0px 10px 0px;
+ 	border-top: 2px solid #cccccc;
+ 	border-bottom:2px solid #cccccc;
+	}
+
+ h1 {
+ 	padding: 15px;
+ 	background-color: #4aaaa5;
+ 	color: white;
+ 	font-family: 'Georgia', Times, Times New Roman, serif;
+ 	display: inline;
+ 	position: relative;
+ 	left: 20px;}
+
+ nav {
+ 	float: right;
+ 	padding: 10px;}
+
+// h1, nav {display: inline;}
+
+// section {background: url('../images/seigaiha.png');} 
+
+ article, aside {background: #ffffff;
+ 				}
+
+article {width: 500px;
+		float: left;
+		// clear: both;}
+
+aside {width: 270px;
+		float: right;
+		// clear: both;}
+
+footer {background: #4aaaa5;
+		position: absolute;
+		bottom: 0;
+		width:960px;
+	}
